@@ -1,0 +1,25 @@
+# Created with Komac v1.10.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: JetBrains.CLion
+PackageVersion: '2023.2'
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: uninstallPrevious
+ReleaseDate: 2023-07-26
+AppsAndFeaturesEntries:
+- DisplayName: CLion 2023.2
+  DisplayVersion: 231.9225.21
+  ProductCode: CLion 2023.1.5
+ElevationRequirement: elevatesSelf
+Installers:
+- Architecture: x64
+  InstallerUrl: https://download-cdn.jetbrains.com/cpp/CLion-2023.2.exe
+  InstallerSha256: 023DF92F220B63E94EB4D8E3CBB331E9F079EF79AF102BB7A9AFE5F81776FE9D
+- Architecture: arm64
+  InstallerUrl: https://download-cdn.jetbrains.com/cpp/CLion-2023.2.exe
+  InstallerSha256: 023DF92F220B63E94EB4D8E3CBB331E9F079EF79AF102BB7A9AFE5F81776FE9D
+ManifestType: installer
+ManifestVersion: 1.4.0
