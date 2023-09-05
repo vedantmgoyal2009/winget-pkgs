@@ -5,10 +5,10 @@ PackageIdentifier: KDE.Kdenlive
 PackageVersion: 23.08.0
 InstallerType: nullsoft
 UpgradeBehavior: install
-ReleaseDate: 2023-09-02
+ReleaseDate: 2023-09-05
 Installers:
 - Architecture: x64
-  InstallerUrl: https://binary-factory.kde.org/view/Windows%20MingW/job/Kdenlive_Stable_mingw64/1206/artifact/kdenlive-23.08.0-1206-windows-gcc-x86_64.exe
-  InstallerSha256: BB07E690C8802D1F07BF4F62493ED38EC157313466D16E49173FE8924D191F6D
+  InstallerUrl: https://binary-factory.kde.org/view/Windows%20MingW/job/Kdenlive_Stable_mingw64/1209/artifact/kdenlive-23.08.0-1209-windows-gcc-x86_64.exe
+  InstallerSha256: B4D14033A51B1CA7FF42F9046F6353710B53259B04479FE33A45BD8D378498E3
 ManifestType: installer
 ManifestVersion: 1.5.0
