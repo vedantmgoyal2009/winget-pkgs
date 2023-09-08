@@ -1,4 +1,4 @@
-# Created using wingetcreate 1.5.2.0
+# Created with WinGet Automation using Komac v1.11.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
 
 PackageIdentifier: Bitwarden.Bitwarden
@@ -22,6 +22,8 @@ Tags:
 - protect
 - protection
 - security
+ReleaseNotes: '- Bug fixes'
+ReleaseNotesUrl: https://github.com/bitwarden/clients/releases/tag/desktop-v2023.8.3
 PurchaseUrl: https://bitwarden.com/pricing/business/
 ManifestType: defaultLocale
 ManifestVersion: 1.5.0
